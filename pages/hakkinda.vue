@@ -1,7 +1,5 @@
 <template>
-    <div class="bg-blue-500 min-w-screen min-h-screen">
-    <div class="min-w-screen h-2 bg-green-500"></div>
-    <NavbarDefault />
+    <div class="grid">
   </div>
 </template>
 
