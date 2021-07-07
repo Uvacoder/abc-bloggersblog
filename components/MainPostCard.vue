@@ -4,15 +4,17 @@
       name: 'post-slug',
       params: { slug: getPostMeta.slug },
     }"
-    >
-    <div>
-      <img :src="getPostMeta.image" class="relative hw" />
-      <h1 class="text-gray-200 font-bold absolute bottom-25 left-5">
-        {{ getPostMeta.title }}
-      </h1>
-      <p class="text-gray-500 absolute bottom-10 text-sm left-5">
-        {{ getPostMeta.description }}
-      </p>
+  >
+    <div class="flex justify-start bg-gray-700 rounded-md hw h-auto">
+      <img :src="getPostMeta.image" class="max-w-48 m-4" />
+      <div>
+        <h1 class="text-lg text-gray-300 mt-4">
+          {{ getPostMeta.title }}
+        </h1>
+        <p class="text-gray-400 my-4">
+          {{ getPostMeta.description }}
+        </p>
+      </div>
     </div>
   </nuxt-link>
 </template>
@@ -57,5 +59,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
+.hw {
+  max-width: 800px;
+}
 </style>

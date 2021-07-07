@@ -1,9 +1,10 @@
 <template>
-  <div class="flex h-12 justify-center items-center bg-gray-700">
+  <div class="flex h-12 justify-startitems-center bg-gray-700">
     <div class="flex items-center">
-      <a href="/hakkinda"> Hakkında </a>
       <h1 class="text-gray-300 text-3xl font-bold mx-4">Bloggy</h1>
       <a target="_blank" href="https://github.com"> Github </a>
+      <a href="/hakkinda"> Hakkında </a>
+      <a> Gönderiler </a>
     </div>
   </div>
 </template>
