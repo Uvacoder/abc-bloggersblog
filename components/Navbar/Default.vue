@@ -1,10 +1,10 @@
 <template>
-  <div class="flex h-12 justify-startitems-center bg-gray-700">
+  <div class="flex h-12 justify-start items-center bg-gray-700">
     <div class="flex items-center">
-      <h1 class="text-gray-300 text-3xl font-bold mx-4">Bloggy</h1>
+      <a href="/" class="text-gray-300 text-3xl font-bold mx-4">Bloggy</a>
       <a target="_blank" href="https://github.com"> Github </a>
-      <a href="/hakkinda"> Hakkında </a>
-      <a> Gönderiler </a>
+      <a href="/about"> About </a>
+      <a href="/posts"> All Posts </a>
     </div>
   </div>
 </template>

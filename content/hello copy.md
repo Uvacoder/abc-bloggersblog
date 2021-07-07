@@ -1,7 +1,7 @@
 ---
 title: Star Wars
-description: '3ugiat quis velit magna nostrud ea. Qui duis Lorem anim fugiat pariatur. Labore dolore nisi enim elit ea cupidatat. Aute voluptate sit incididunt do id ipsum deserunt adipisicing dolore fugiat excepteur mollit eu. Ut irure enim anim ex sit aliquip incididunt quis laborum.'
-image: "sample.jpg"
+description: '3ugiat quis velit magna nostrud ea. Qui duis Lorem anim fugiat pariatur. Labore dolore nisi enim elit eu. Ut irure enim anim ex sit aliquip incididunt quis laborum.'
+image: "fok.jpg"
 createdAt: 2020-02-08
 ---
 

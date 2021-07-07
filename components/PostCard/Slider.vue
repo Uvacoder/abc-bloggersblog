@@ -1,20 +1,22 @@
 <template>
-  <nuxt-link
-    :to="{
-      name: 'post-slug',
-      params: { slug: getPostMeta.slug },
-    }"
+  <div class="flex justify-center">
+    <nuxt-link
+      :to="{
+        name: 'post-slug',
+        params: { slug: getPostMeta.slug },
+      }"
     >
-    <div>
-      <img :src="getPostMeta.image" class="relative hw" />
-      <h1 class="text-gray-200 font-bold absolute bottom-25 left-5">
+      <img :src="getPostMeta.image" class="relative hw filter blur-sm opacity-30" />
+      <div class="absolute bottom-10 left-5">
+      <h1 class="text-gray-200 font-bold">
         {{ getPostMeta.title }}
       </h1>
-      <p class="text-gray-500 absolute bottom-10 text-sm left-5">
+      <p class="text-gray-100 hover:text-gray-700 hover:animate-pulse font-semibold text-lg">
         {{ getPostMeta.description }}
       </p>
-    </div>
-  </nuxt-link>
+      </div>
+    </nuxt-link>
+  </div>
 </template>
 
 <script>

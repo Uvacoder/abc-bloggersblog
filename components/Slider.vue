@@ -7,7 +7,7 @@
         :post="post"
         class="flex"
       >
-        <SliderPostCard :key="`latest-${index}`" :post="post" class="hw" />
+        <PostCardSlider :key="`latest-${index}`" :post="post" class="hw" />
       </splide-slide>
     </splide>
   </div>
