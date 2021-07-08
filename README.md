@@ -4,7 +4,7 @@
 
 
 
-# Under Development! Only main page ready!!!
+# Download beta from releases. Works with vercel and netlify.
 
 - Designed with Windi CSS
   
@@ -18,7 +18,7 @@
 
 - [ ] About Page
 
-- [ ] Disqus integration
+- [x] Disqus integration
 
 - [ ] Using Vite
 
