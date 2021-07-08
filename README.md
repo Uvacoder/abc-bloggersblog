@@ -1,8 +1,7 @@
 # Bloggy
 
 ## Advanced blog made with VueJS and NuxtJS
-
-
+[Demo](https://blog.mehmetali345.xyz)
 
 # Download beta from releases. Works with vercel and netlify.
 
