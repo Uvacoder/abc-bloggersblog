@@ -32,7 +32,7 @@ export default {
       if (this.icon) return this.icon;
       else
         return (
-          `${this.author?.toLowerCase()?.replace(/[^a-zA-Z]/g, "")}.png` || `${this.author?.toLowerCase()?.replace(/[^a-zA-Z]/g, "")}.jpg`
+          `/${this.author?.toLowerCase()}.png` || `/${this.author?.toLowerCase()}.jpg`
         );
     },
   },
