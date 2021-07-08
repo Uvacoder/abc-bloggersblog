@@ -23,3 +23,11 @@
 - [ ] Using Vite
 
 - [x] Multiple authors
+
+ ## Building
+ Install packages with yarn or npm (Yarn reccomended)
+ ### First
+ Run yarn dev or npm install command
+ ### Second
+ Build site with yarn build or npm build **OR**
+ yarn dev or npm install to start development server. 
