@@ -1,10 +1,10 @@
 <template>
   <div>
     <header class="grid justify-items-center bg-gray-900">
-      <h1 class="text-gray-300 font-semibold text-2xl py-4">Son Gönderiler</h1>
+      <h1 class="text-gray-300 font-semibold text-2xl py-4">Updated Posts</h1>
       <Slider class="pb-4" />
       <div class="grid justify-items-center bg-gray-900">
-        <h1 class="text-gray-300 text-lg mt-4">Gönderiler</h1>
+        <h1 class="text-gray-300 text-lg mt-4">Posts</h1>
         <div>
           <PostCardMain
             v-for="(post, index) in posts.all"
