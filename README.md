@@ -22,4 +22,4 @@
 
 - [ ] Using Vite
 
-- [ ] Multiple authors
+- [x] Multiple authors

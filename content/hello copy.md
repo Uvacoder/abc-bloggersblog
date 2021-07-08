@@ -3,6 +3,7 @@ title: Star Wars
 description: '3ugiat quis velit magna nostrud ea. Qui duis Lorem anim fugiat pariatur. Labore dolore nisi enim elit eu. Ut irure enim anim ex sit aliquip incididunt quis laborum.'
 image: "fok.jpg"
 createdAt: 2020-02-08
+author: "Mehmetali345Dev"
 ---
 
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.

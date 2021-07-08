@@ -11,7 +11,7 @@
       <h1 class="text-gray-200 font-bold">
         {{ getPostMeta.title }}
       </h1>
-      <p class="text-gray-100 hover:text-gray-700 hover:animate-pulse font-semibold text-lg">
+      <p class="text-gray-100 hover:text-gray-300 hover:animate-pulse font-semibold text-lg">
         {{ getPostMeta.description }}
       </p>
       </div>
