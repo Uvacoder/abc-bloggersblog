@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center">
-    <h2 class="mr-2 text-gray-300">Yazar:</h2>
+    <h2 class="mr-2 text-gray-300">Author:</h2>
     <img
       :src="getIconName"
       class="w-8 h-8 object-cover my-3 ring-2 ring-gray-400 rounded-full"
