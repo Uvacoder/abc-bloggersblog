@@ -37,6 +37,7 @@
 //  components: {
 //    Disqus,
 //  },
+export default {
  data() {
     return {
       post: {},
