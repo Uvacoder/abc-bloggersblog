@@ -26,25 +26,17 @@
     <article class="flex items-center hw w-full mx-auto mt-6">
       <nuxt-content :document="post" />
     </article>
-        <Disqus
-          shortname="bloggy-6"
-          :title="post.title"
-          :url="`https://blog.mehmetali345.xyz/post/${post.slug}`"
-          :identifier="`/post/${post.slug}`"
-          :slug="post.slug"
-          lang="tr"
-          class="mt-10 disqus"
-        />
+        
   </div>
 </template>
 
 <script>
-import { Disqus } from "vue-disqus"
+//import { Disqus } from "vue-disqus"
 
-export default {
-  components: {
-    Disqus,
-  },
+//export default {
+//  components: {
+//    Disqus,
+//  },
  data() {
     return {
       post: {},
