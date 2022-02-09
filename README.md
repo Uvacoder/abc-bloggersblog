@@ -1,3 +1,5 @@
+![bloggersblog](screenshot-bloggersblog.png)
+
 # Bloggy
 
 ## Advanced blog made with VueJS and NuxtJS
